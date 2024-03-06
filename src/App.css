@@ -1,0 +1,50 @@
+/* Add these styles at the end of your CSS file */
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  /* background-color: green; */
+  
+}
+
+.mainpage {
+  margin-top: 50px; /* Adjust the margin as needed */
+  /* background-color: green; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%; 
+  margin:0 auto;
+  /* justify-content: center;
+  align-items: center; */
+  background-color: rgba(160, 211, 236, 0.944);
+  padding: 10px;
+  
+
+}
+
+.datafields {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left:auto;
+  margin-right: auto;
+  /* background-color: red; */
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+h6 {
+  margin-top: 20px; /* Adjust the margin as needed */
+  
+}
+.amount{
+  display: flex;
+  justify-content: space-between;
+}
